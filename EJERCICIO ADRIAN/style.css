@@ -1,0 +1,19 @@
+h1 {
+    font-size: 70px;
+    background-color: rgb(107, 199, 199);
+    font-style: italic;
+}
+
+.Borde{
+border: 30px solid black;
+margin: 50px; 
+padding: 10px;
+width: 70vw;
+
+}
+
+.luffy {
+text-align: center;
+margin: auto;
+
+}

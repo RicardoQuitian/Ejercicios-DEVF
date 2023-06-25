@@ -1,0 +1,13 @@
+*{margin: 0;
+padding: 0;}
+
+.grid-container{
+    display: grid;
+}
+
+img{
+    background-color: red;
+    width: 200px;
+    height: ;
+
+}
