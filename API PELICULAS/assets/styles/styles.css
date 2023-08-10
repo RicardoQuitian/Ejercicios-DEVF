@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.posters {
+    display: flex;
+    flex-wrap: wrap; /*Con flex grap me alinea todas las imagenes, adicionalmente la buelve responsive*/
+    background-color: rgb(186, 178, 168);
+}
+
+.posters > *{  /*Con esto le estoy diciendo que seleccione a todos los hijos de posters*/
+    cursor: pointer; /*Y con esto le estoy indicando que cuando este encima del elemento el cursor tome la forma de mano*/
+}
+
+.posters > img { /*Le estoy indicando que seleccione todas las imagenes dentro de posters*/
+    margin: 20px;
+    transition: ease-in 0.2s; /*Y esta linea hace que la transision se demore el tiempo indicado*/
+
+}
+
+img:hover {
+    transform: scale(0.9); /*Cambia el tamaño de la imagen. si se ler coloca 1, no va a pasar nada por que es el tamaño original*/
+}
